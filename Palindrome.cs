@@ -9,7 +9,8 @@ namespace Palindrome
     class Palindrome {
 
         //checa se é palindromo recursivamente
-        static bool palindrome(String s) {
+        static bool palindrome(String str) {
+            String s = str;
             if (s.Length == 0 || s.Length == 1) {     //caso base: palava possui tamanho 0 ou 1
                 return true;
             }
